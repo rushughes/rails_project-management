@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.1.7'
 gem 'devise'
 gem 'milia'
+
+gem 'aws-sdk'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets

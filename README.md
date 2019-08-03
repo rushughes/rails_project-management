@@ -22,3 +22,26 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+http://awspolicygen.s3.amazonaws.com/policygen.html
+
+{
+  "Id": "Policy1564834554793",
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1564834526924",
+      "Action": [
+        "s3:GetObject"
+      ],
+      "Effect": "Allow",
+      "Resource": "arn:aws:s3:::bucket-name-goes-here/*",
+      "Principal": {
+          "AWS": [
+            "*"
+          ]
+      }
+    }
+  ]
+}
