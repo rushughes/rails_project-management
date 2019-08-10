@@ -45,3 +45,7 @@ http://awspolicygen.s3.amazonaws.com/policygen.html
     }
   ]
 }
+
+TODO : is_admin isn't set when a user signs up
+TODO : stripe payments arent actually working
+TODO : S3 uploads now error
