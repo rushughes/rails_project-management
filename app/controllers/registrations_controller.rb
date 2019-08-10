@@ -33,7 +33,6 @@ class RegistrationsController < Milia::RegistrationsController
               token: params[:payment]["token"],
               tenant: @tenant })
             flash[:error] = "Please check registration errors" unless @payment.valid?
-
             begin
               @payment.process_payment
               @payment.save
